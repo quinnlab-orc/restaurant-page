@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.heading {
+  margin: auto;
+  text-align: center;
+  font-style: oblique;
+  border-radius: 10px;
+  background-color: rgba(256, 256, 256, 0.75);
+  width: 30%;
+}
+
+
+
+ul {
+  margin: auto;
+  list-style-type: none;
+  padding: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.active {
+  width: 22%;
+  background: red;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.inactive {
+  width: 22%;
+  background-color: rgba(256, 256, 256, 0);
+}
+
+.card {
+  padding: 25px 50px 25px 50px;
+  width: 30%;
+  margin: auto;
+  border-radius: 10px;
+  background-color: rgba(256, 256, 256, 0.75);
+}
+
+
+
+/* .tab0 {
+  width: 22%;
+  background: palevioletred;
+}
+.tab1 {
+  width: 22%;
+  background: palevioletred;
+}
+.tab2 {
+  width: 22%;
+  background: palevioletred;
+}
+.tab3 {
+  width: 22%;
+  background: palevioletred;
+} */
